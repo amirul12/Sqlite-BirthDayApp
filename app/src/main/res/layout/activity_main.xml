@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_height="wrap_content">
+
+
+
+    <EditText
+       android:id="@+id/etName"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:hint="Enter Friends Name"
+        android:layout_height="60dp"
+        android:layout_margin="12dp"
+        android:background="#cacaca"
+        />
+    <EditText
+
+        android:id="@+id/etDay"
+        android:hint="Enter Birth Day Date"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#cfcfcf"
+        />
+</LinearLayout>
+<Button
+    android:id="@+id/btnSava"
+    android:layout_width="match_parent"
+    android:text="Save"
+    android:textColor="#fff"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:layout_height="55dp"
+    android:layout_marginTop="30dp"
+    android:layout_margin="20dp"
+    android:background="@color/colorAccent"/>
+
+    <Button
+        android:id="@+id/btnShow"
+        android:layout_width="match_parent"
+        android:text="Show"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_height="55dp"
+        android:layout_marginTop="30dp"
+        android:layout_margin="20dp"
+        android:background="@color/colorPrimaryDark"/>
+
+    <Button
+        android:id="@+id/btnShare"
+        android:layout_width="58sp"
+        android:gravity="center"
+        android:text="FB"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_height="55dp"
+        android:layout_marginTop="30dp"
+        android:layout_margin="20dp"
+        android:background="#1cacae"/>
+
+
+
+    </LinearLayout>
+
+
